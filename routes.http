@@ -15,7 +15,7 @@ GET http://localhost:3333/vehicles?search=placa
 Content-Type: application/json
 
 ###
-PUT http://localhost:3333/vehicles/dc2df133-8cc5-4be1-bda8-f7b7b7b0fd2a
+PUT http://localhost:3333/vehicles/fd3fce77-d540-4c72-9098-0481360893e0
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/vehicles/dc2df133-8cc5-4be1-bda8-f7b7b7b0fd2a
+DELETE http://localhost:3333/vehicles/fd3fce77-d540-4c72-9098-0481360893e0
