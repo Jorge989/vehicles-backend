@@ -1,0 +1,31 @@
+POST http://localhost:3333/vehicles
+Content-Type: application/json
+
+{
+    "placa": "ABC-1234",
+    "chassi": "9BWZZZ377VT004251",
+    "renavam": "12345678901",
+    "modelo": "Gol",
+    "marca": "Volkswagen",
+    "ano": 2020
+}
+
+###
+GET http://localhost:3333/vehicles?search=placa
+Content-Type: application/json
+
+###
+PUT http://localhost:3333/vehicles/dc2df133-8cc5-4be1-bda8-f7b7b7b0fd2a
+Content-Type: application/json
+
+{
+    "placa": "DEF-5678",
+    "chassi": "8APZZZ123LT009876",
+    "renavam": "98765432102",
+    "modelo": "Onix",
+    "marca": "Chevrolet",
+    "ano": 2021
+}
+
+###
+DELETE http://localhost:3333/vehicles/dc2df133-8cc5-4be1-bda8-f7b7b7b0fd2a
